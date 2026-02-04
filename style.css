@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'BBH';
+    src: url('BBH.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bounded';
+    src: url('Bounded.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-image: url(lidedrumkit.png);
+    background-size: 140vh;
+    margin: 0;
+    height: 100vh; 
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 700px;
+    height: 100%;
+    width: 100%;
+}
+
+.panel {
+    display: grid;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(40px);
+    padding: 5vh 7.5vh;
+    border-radius: 4.5vh;
+    border: 2px rgba(255, 255, 255, 0.3) solid;
+}
+
+.img {
+    height: 25vh;
+    border-radius: 3vh;
+}
+
+.button {
+    border-radius: 5vh;
+    border: 2px rgba(255, 255, 255, 0) solid;
+    background-color: rgba(0, 0, 0, 1);
+    height: 5vh;
+    color: rgba(255, 255, 255, 1);
+    font-family:'Bounded', sans-serif;
+    font-size: 1.5vh;
+    transition: all cubic-bezier(.18,.58,.33,.69) 0.35s;
+    cursor: pointer;
+}
+
+.h12 {
+    font-family: 'Bounded', sans-serif;
+}
+
+.button:hover {
+    border: 2px rgba(255, 255, 255, 1) solid;
+}
