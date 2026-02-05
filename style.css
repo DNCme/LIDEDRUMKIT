@@ -56,8 +56,10 @@ body {
 
 .h12 {
     font-family: 'Bounded', sans-serif;
+    text-align: center;
 }
 
 .button:hover {
     border: 2px rgba(255, 255, 255, 1) solid;
+
 }
